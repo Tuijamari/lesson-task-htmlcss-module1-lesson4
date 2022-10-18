@@ -1,4 +1,22 @@
-header,
+@font-face {
+  font-family: "Boots and Spurs";
+ src: url("../fonts/BootsAndSpurs.ttf") format("truetype");
+}
+
+ body {
+  font-family: Roboto;
+ }
+
+h1,h2,
+.logo {
+  font-family: "Boots and Spurs", Tabona;
+}
+
+.products h2 {
+    font-family: Roboto;
+}
+
+header, 
 footer {
   background-color: #202020;
   color: #fff;
@@ -29,7 +47,5 @@ header a {
 footer {
   text-align: center;
 }
-@font-face {
-  font-family: The boots & Spurs;
-  src: url();
-}
+
+
