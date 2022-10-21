@@ -6,7 +6,19 @@
  body {
   font-family: Roboto;
  }
-
+nav {
+  display: none;
+  position: absolute;
+  
+}
+nav a {
+  display: underline;
+  color: #fff;
+  padding: 50px;
+}
+header {
+  position: relative;
+}
 h1,h2,
 .logo {
   font-family: "Boots and Spurs", Tabona;
@@ -26,6 +38,9 @@ header a {
   color: #fff;
 }
 
+nav a {
+  display: inline;
+}
 .cta {
   background-color: #bb0000;
   color: #fff;
@@ -47,5 +62,26 @@ header a {
 footer {
   text-align: center;
 }
+/* Home page*/
+.welcome {
+  background-image:url(../images/home-header.jpg);
+  background-size: cover;
+  min-height: 70vh; 
+}
 
+.selling_points_images { 
+  
+    border-radius: 100px;
+}
 
+.review_images {
+  border-radius: 50%;
+}
+
+/* contact page */
+input,
+select, 
+textarea {
+  border: bold;
+  border-radius: 5px;
+}

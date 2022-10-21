@@ -22,6 +22,33 @@
     </header>
     <main>
       <h1>Contact</h1>
+      <form method="post">
+          <fieldset>
+              <label >Full name</label>
+              <input type="name" name="name" id="name" class="form_input"/>
+          </fieldset>
+          <fieldset>
+            <label> Your email</label>
+            <input type="email" name="email" id="email" class="form_input"/>
+          </fieldset>
+          <fieldset>
+            <label>Guitars</label>
+            <select name="Guitars"> 
+              <option value="Adirondack red"> Adirondack red</option> 
+              <option value="Adirondack blue"> Adirondack blue</option> 
+              <option value="Adirondack green">Adirondack green</option> 
+            </select>
+          </fieldset>
+          <fieldset>
+            <label for = "email updates"> Sign up for email updates</label>
+            <input type="checkbox" id="email updates" value="email updates" name="email updaes" />
+          </fieldset>
+          <fieldset>
+            <label for = "message"> Message</label>
+            <textarea id="message" name="message" rows="5" cols="30"></textarea>
+          </fieldset>
+          <input type="submit" value="Send now" class="cta"/>
+      </form>
     </main>
     <footer>Copyright &copy;</footer>
   </body>
